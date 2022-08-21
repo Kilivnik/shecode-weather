@@ -1,0 +1,78 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p,
+ul,
+ol,
+dl,
+dd,
+dt {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+link {
+    text-decoration: none;
+}
+
+body {
+    background-color: #9fd3c7;
+}
+  
+
+
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #53a8b6;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #000000;
+    
+
+}
+
+.header {
+    padding: 15px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+
+}
+
+.city {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+}
+
+.weather-type {
+    margin-right: 10px;
+}
+
+.btn {
+    color: #120f0f;
+    
+}
